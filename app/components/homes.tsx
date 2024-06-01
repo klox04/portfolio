@@ -1,0 +1,86 @@
+'use client';
+import Image from 'next/image';
+
+const Home = () => {
+  const resume = () => {
+    if (typeof window !== 'undefined') {
+      window.open('https://drive.google.com/file/d/11yxY1IrmO1zp_fNODKWttLhtTrXU55zJ/view', '_blank');
+    }
+  };
+
+  return (
+    <section className="w-full max-w-6xl mx-auto h-screen flex items-center justify-center">
+      <div className="flex flex-col md:flex-row items-center justify-around gap-1">
+        <div className="text-center md:text-left md:w-1/2">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Hello, It's Me</h1>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Daniel Caralos</h2>
+          <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">And I'm a <span className="text-[#63e]">Developer</span></h3>
+          <p className="text-gray-400 text-lg mb-6">
+          I'm Daniel Caralos. An aspiring and passionate Developer based on Davao City, Philippines.
+          </p>
+          <div className="flex justify-center md:justify-start gap-4 mb-6">
+            <a href="#"  
+            className='border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
+            <Image
+            src="/images/icons8-facebook-48.png" 
+            alt="facebook"
+            width={50}
+            height={50}
+           />
+            </a>
+            
+            <a href="#"  
+            className='bg-white border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
+            <Image
+            src="/images/icons8-github-50.png" 
+            alt="facebook"
+            width={50}
+            height={50}
+           />
+            </a>
+            <a href="#"  
+            className='border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
+            <Image
+            src="/images/icons8-linkedin-circled-48.png" 
+            alt="facebook"
+            width={50}
+            height={50}
+            
+           />
+            </a>
+            <a href="#"  
+            className='bg-white border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
+            <Image
+            src="/images/icons8-instagram-circle-30.png" 
+            alt="facebook"
+            width={50}
+            height={50}
+           />
+            </a>
+          </div>
+          <button 
+            type='button' 
+            onClick={resume}
+            className="px-6 py-3 bg-[#63e] text-white font-bold rounded-full hover:transition duration-500 hover:scale-125"
+          >
+            Download Resume
+          </button>
+        </div>
+        <div className="relative w-80 h-80 md:w-96 md:h-96">
+          <div className="absolute inset-0 rounded-full overflow-hidden bg-[#63e]">
+            <Image
+              src="/images/file-removebgs.png" 
+              alt="Profile Image"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-full"
+            />
+          </div>
+          <div className="absolute inset-0 rounded-full border-8 border-white"></div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Home;
