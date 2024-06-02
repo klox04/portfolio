@@ -7,6 +7,21 @@ const Home = () => {
       window.open('https://drive.google.com/file/d/11yxY1IrmO1zp_fNODKWttLhtTrXU55zJ/view', '_blank');
     }
   };
+  const facebook = () => {
+    if (typeof window !== 'undefined') {
+      window.open('https://www.facebook.com/profile.php?id=100010598835592', '_blank');
+    }
+  };
+  const github = () => {
+    if (typeof window !== 'undefined') {
+      window.open('https://github.com/klox04', '_blank');
+    }
+  };
+  const linkin = () => {
+    if (typeof window !== 'undefined') {
+      window.open('https://www.linkedin.com/in/daniel-caralos-006069284/', '_blank');
+    }
+  };
 
   return (
     <section className="w-full max-w-6xl mx-auto h-screen flex items-center justify-center">
@@ -24,6 +39,7 @@ const Home = () => {
             <Image
             src="/images/icons8-facebook-48.png" 
             alt="facebook"
+            onClick={facebook}
             width={50}
             height={50}
            />
@@ -33,16 +49,18 @@ const Home = () => {
             className='bg-white border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
             <Image
             src="/images/icons8-github-50.png" 
-            alt="facebook"
+            alt="github"
             width={50}
             height={50}
+            onClick={github}
            />
             </a>
             <a href="#"  
             className='border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
             <Image
             src="/images/icons8-linkedin-circled-48.png" 
-            alt="facebook"
+            alt="linkedin"
+            onClick={linkin}
             width={50}
             height={50}
             
