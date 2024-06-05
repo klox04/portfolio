@@ -135,10 +135,8 @@ const About = () => {
       <Image
               src="/images/CSS.png" 
               alt="Profile Image"
-              width={100}
-              height={100}
-           
-              
+              layout="fill"
+              objectFit="cover"
             />
       </div>
       </div>

@@ -86,11 +86,10 @@ const Home = () => {
         <div className="relative w-80 h-80 md:w-96 md:h-96">
           <div className="absolute inset-0 rounded-full overflow-hidden bg-[#63e]">
             <Image
-              src="/images/file-removebgs.png" 
+              src="/images/file-removebg.png" 
               alt="Profile Image"
               layout="fill"
               objectFit="cover"
-              className="rounded-full"
             />
           </div>
           <div className="absolute inset-0 rounded-full border-8 border-white"></div>
