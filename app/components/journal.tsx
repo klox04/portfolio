@@ -4,15 +4,15 @@ const Journal = () => {
     const entries = [
         {
             imgSrc: "/images/DSC03436.JPG",
-            title: "Journal Entry",
+            title: "MY CO-INTERN",
             heading: "My Amazing Journey",
             description: "It was an amazing experience full of adventure and learning. Here, I share some of the highlights and insights from our teambuilding with co-intern."
         },
         {
             imgSrc: "/images/DSC03500.JPG",
-            title: "Journal Entry",
+            title: " TEAMBUILDING GAMES",
             heading: "My Amazing Journey",
-            description: "This is a brief description of my journey. It was an amazing experience full of adventure and learning. Here, I share some of the highlights and insights from my travels."
+            description: "It was an amazing experience full of adventure and learning. Here, I share some of the highlights and insights from our teambuilding with co-intern."
         },
     ];
 
