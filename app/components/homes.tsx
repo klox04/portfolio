@@ -25,11 +25,11 @@ const Home = () => {
 
   return (
     <section className="w-full max-w-6xl mx-auto h-screen flex items-center justify-center">
-      <div className="flex flex-col md:flex-row items-center justify-around gap-1">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-around gap-1">
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Hello, It's Me</h1>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Daniel Caralos</h2>
-          <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">And I'm a <span className="text-[#63e]">Developer</span></h3>
+          <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">And I'm a <span className="text-[#63e]"> Web Developer</span></h3>
           <p className="text-gray-400 text-lg mb-6">
           I'm Daniel Caralos. An aspiring and passionate Developer based on Davao City, Philippines.
           </p>

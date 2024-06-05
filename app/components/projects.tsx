@@ -33,10 +33,12 @@ const Projects = () => {
   };
   return (
     <div className="max-w-6xl mx-auto px-6 py-6">
-      <h3 className="text-4xl font-bold text-white mt-4 mb-2">
-        -Projects
+      <h3 className="text-4xl font-bold text-white mt-4 mb-8">
+        - Projects
       </h3>
-      <div className="grid grid-cols-2 rounded-lg md:grid-cols-4 gap-5">
+      <div className="grid grid-cols-2 rounded-lg md:grid-cols-4 gap-5"
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <div className="rounded-xl bg-white shadow-lg shadow-gray-300">
           <div className="flex flex-row overflow-x-scroll mt-2">
             <Image

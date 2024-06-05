@@ -40,9 +40,13 @@ const About = () => {
               <h2 className='text-4xl font-bold text-white mt-2 mb-3 text-center uppercase'>
                 Teck Stack
               </h2>
-              <div className="relative flex items-center justify-center gap-2">
+              <div className="relative flex items-center justify-center gap-2"
+              >
 
-      <div className=" shadow-lg h-auto w-auto hover:transition duration-500 hover:scale-125 ">
+      <div className=" shadow-lg h-auto w-auto hover:transition duration-500 hover:scale-125 "
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Image
               src="/images/c++.png" 
               alt="Profile Image"
@@ -51,7 +55,10 @@ const About = () => {
               className='rounded-lg'
             />
       </div>
-      <div className="shadow-lg rounded-lg bg-white h-auto w-auto hover:transition duration-500 hover:scale-125 ">
+      <div className="shadow-lg rounded-lg bg-white h-auto w-auto hover:transition duration-500 hover:scale-125 "
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Image
               src="/images/icons8-java-50.png" 
               alt="Profile Image"
@@ -59,7 +66,10 @@ const About = () => {
               height={100}
             />
       </div>
-      <div className="  shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125">
+      <div className="  shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Image
               src="/images/csharp.png" 
               alt="Profile Image"
@@ -68,7 +78,10 @@ const About = () => {
               className='rounded-lg'
             />
       </div>
-      <div className="shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125">
+      <div className="shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Image
               src="/images/vuejs.png" 
               alt="Profile Image"
@@ -77,7 +90,10 @@ const About = () => {
               className='rounded-lg'
             />
       </div>
-      <div className="shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125 ">
+      <div className="shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125 "
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Image
               src="/images/tailwind.jpeg" 
               alt="Profile Image"
@@ -86,7 +102,10 @@ const About = () => {
               className='rounded-lg'
             />
       </div>
-      <div className="shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125">
+      <div className="shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Image
               src="/images/rea.png" 
               alt="Profile Image"
@@ -96,7 +115,10 @@ const About = () => {
               
             />
       </div>
-      <div className="shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125">
+      <div className="shadow-lg  h-auto w-auto hover:transition duration-500 hover:scale-125"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Image
               src="/images/html.png" 
               alt="Profile Image"
@@ -106,7 +128,10 @@ const About = () => {
               
             />
       </div>
-      <div className="shadow-lg bg-white rounded-lg h-auto w-auto hover:transition duration-500 hover:scale-125">
+      <div className="shadow-lg bg-white rounded-lg h-auto w-auto hover:transition duration-500 hover:scale-125"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Image
               src="/images/CSS.png" 
               alt="Profile Image"
