@@ -10,21 +10,20 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black p-4 relative">
+    <nav className="bg-black p-4 relative sticky top-0 z-50">
       <div className="container mx-auto px-8 flex justify-between items-center">
         <div className="flex place-items-center gap-2 text-white text-2xl">
-        <svg xmlns="http://www.w3.org/2000/svg" 
-        fill="none" viewBox="0 0 24 24" 
-        stroke-width="1.5"
-        stroke="currentColor"
-         className="size-6 text-gray-400">
-      <path 
-      
-      stroke-linecap="round" 
-      stroke-linejoin="round" 
-      d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
-      </svg>
-       <a href="#home" className='text-gray-400 hover:text-white hover:font-bold'>Porfolio</a>
+          <svg xmlns="http://www.w3.org/2000/svg" 
+          fill="none" viewBox="0 0 24 24" 
+          strokeWidth="1.5"
+          stroke="currentColor"
+          className="size-6 text-gray-400">
+            <path 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+          </svg>
+          <a href="#home" className='text-gray-400 hover:text-white hover:font-bold'>Portfolio</a>
         </div>
         <div className="lg:hidden" onClick={toggleMenu}>
           <button className="text-white">☰</button>

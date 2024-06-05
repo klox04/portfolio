@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <> 
     <Navbar/>
-    <main className="p-4">
+    <main className="pt-16">
         <section id="home" className="h-auto mb-2 flex justify-center items-center">
         <Homes/>
         </section>
