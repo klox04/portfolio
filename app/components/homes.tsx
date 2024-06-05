@@ -27,53 +27,52 @@ const Home = () => {
     <section className="w-full max-w-6xl mx-auto h-screen flex items-center justify-center">
       <div className="flex flex-col-reverse md:flex-row items-center justify-around gap-1">
         <div className="text-center md:text-left md:w-1/2">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Hello, It's Me</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Hello, It&apos;s Me</h1>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Daniel Caralos</h2>
-          <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">And I'm a <span className="text-[#63e]"> Web Developer</span></h3>
+          <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">And I&apos;m a <span className="text-[#63e]"> Web Developer</span></h3>
           <p className="text-gray-400 text-lg mb-6">
-          I'm Daniel Caralos. An aspiring and passionate Developer based on Davao City, Philippines.
+            I&apos;m Daniel Caralos. An aspiring and passionate Developer based on Davao City, Philippines.
           </p>
           <div className="flex justify-center md:justify-start gap-4 mb-6">
             <a href="#"  
-            className='border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
-            <Image
-            src="/images/icons8-facebook-48.png" 
-            alt="facebook"
-            onClick={facebook}
-            width={50}
-            height={50}
-           />
+              className='border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
+              <Image
+                src="/images/icons8-facebook-48.png" 
+                alt="facebook"
+                onClick={facebook}
+                width={50}
+                height={50}
+              />
             </a>
             
             <a href="#"  
-            className='bg-white border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
-            <Image
-            src="/images/icons8-github-50.png" 
-            alt="github"
-            width={50}
-            height={50}
-            onClick={github}
-           />
+              className='bg-white border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
+              <Image
+                src="/images/icons8-github-50.png" 
+                alt="github"
+                width={50}
+                height={50}
+                onClick={github}
+              />
             </a>
             <a href="#"  
-            className='border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
-            <Image
-            src="/images/icons8-linkedin-circled-48.png" 
-            alt="linkedin"
-            onClick={linkin}
-            width={50}
-            height={50}
-            
-           />
+              className='border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
+              <Image
+                src="/images/icons8-linkedin-circled-48.png" 
+                alt="linkedin"
+                onClick={linkin}
+                width={50}
+                height={50}
+              />
             </a>
             <a href="#"  
-            className='bg-white border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
-            <Image
-            src="/images/icons8-instagram-circle-30.png" 
-            alt="facebook"
-            width={50}
-            height={50}
-           />
+              className='bg-white border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
+              <Image
+                src="/images/icons8-instagram-circle-30.png" 
+                alt="instagram"
+                width={50}
+                height={50}
+              />
             </a>
           </div>
           <button 
