@@ -34,7 +34,7 @@ export default function Home() {
         <section id="journal" className="h-screen flex justify-center items-center">
           <Journal/>
         </section>
-        <section id="contact" className="h-auto ">
+        <section id="contact" className="h-screen ">
     
         <ContactMe/>
         </section>
