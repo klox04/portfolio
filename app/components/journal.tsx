@@ -4,10 +4,8 @@ import Image from 'next/image';
 const Journal = () => {
     const images = [
         "/images/DSC03436.JPG",
-        "/images/jour1.jpg",
         "/images/jour2.jpg",
         "/images/jour3.jpg",
-        "/images/jour.jpg"
     ];
   
 
@@ -54,7 +52,7 @@ const Journal = () => {
                 <div className="max-w-sm bg-white rounded-xl shadow-md overflow-hidden">
                     <div className="w-full h-64 relative">
                         <Image
-                            src={currentImage}
+                            src= "/images/jour.jpg" 
                             alt="Journal Image"
                             layout="fill"
                             objectFit="cover"
@@ -75,11 +73,11 @@ const Journal = () => {
                         hover:bg-indigo-700 hover:transition duration-500 hover:scale-125'> Read More</button>
                     </div>
                     {showModalFeb && (
-                        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center z-50">
-                            <div className="bg-white rounded-lg p-6 w-3/4 md:w-1/2 relative">
-                                <div className="w-full h-64 relative mb-4">
+                        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center   z-50">
+                            <div className="bg-white rounded-lg p-6 w-5/6 relative">
+                                <div className="w-full h-80 relative mb-4">
                                     <Image
-                                        src={currentImage}
+                                        src= "/images/jour.jpg" 
                                         alt="Journal Image"
                                         layout="fill"
                                         objectFit="cover"
@@ -109,7 +107,7 @@ const Journal = () => {
                 <div className="max-w-sm bg-white rounded-xl shadow-md overflow-hidden">
                     <div className="w-full h-64 relative">
                         <Image
-                            src={currentImage}
+                            src= "/images/jour1.jpg" 
                             alt="Journal Image"
                             layout="fill"
                             objectFit="cover"
@@ -132,10 +130,10 @@ const Journal = () => {
                     </div>
                     {showModalApril && (
                         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center z-50">
-                            <div className="bg-white rounded-lg p-6 w-3/4 md:w-1/2 relative">
+                            <div className="bg-white rounded-lg p-6 w-5/6  relative">
                                 <div className="w-full h-64 relative mb-4">
                                     <Image
-                                        src={currentImage}
+                                        src= "/images/jour1.jpg" 
                                         alt="Journal Image"
                                         layout="fill"
                                         objectFit="cover"
@@ -185,7 +183,7 @@ const Journal = () => {
                     </div>
                     {showModalMay && (
                         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center z-50">
-                            <div className="bg-white rounded-lg p-6 w-3/4 md:w-1/2 relative">
+                            <div className="bg-white rounded-lg p-6 w-5/6  relative">
                                 <div className="w-full h-64 relative mb-4">
                                     <Image
                                         src={currentImage}
