@@ -22,6 +22,11 @@ const Home = () => {
       window.open('https://www.linkedin.com/in/daniel-caralos-006069284/', '_blank');
     }
   };
+  const insta = () => {
+    if (typeof window !== 'undefined') {
+      window.open('https://www.instagram.com/dnlbcrls/', '_blank');
+    }
+  };
 
   return (
     <section className="w-full max-w-6xl mx-auto h-screen flex items-center justify-center">
@@ -67,11 +72,12 @@ const Home = () => {
             </a>
             <a href="#"  
               className='bg-white border-2 border-white rounded-full hover:transition duration-500 hover:scale-125'>
-              <Image
-                src="/images/icons8-instagram-circle-30.png" 
-                alt="instagram"
+           <Image
+                src="/images/insta.jpg"
+                alt="Instagram"
                 width={50}
                 height={50}
+                className='rounded-full'
               />
             </a>
           </div>
@@ -86,6 +92,7 @@ const Home = () => {
         <div className="relative w-80 h-80 md:w-96 md:h-96">
           <div className="absolute inset-0 rounded-full overflow-hidden bg-[#63e]">
             <Image
+            onClick={insta}
               src="/images/file-removebg.png" 
               alt="Profile Image"
               layout="fill"
