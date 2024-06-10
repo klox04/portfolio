@@ -1,4 +1,9 @@
-'use client'
+'use client';
+
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Navbar from './components/navbar';
 import Homes from './components/homes';
 import Footer from './components/footer';
@@ -8,38 +13,35 @@ import Certificates from './components/certificate';
 import Journal from './components/journal';
 import ContactMe from './components/contact';
 
-import AOS from "aos"
-import "aos/dist/aos.css"
-import { useEffect } from 'react';
 export default function Home() {
   useEffect(() => {
-    AOS.init({})
-  },[])
+    AOS.init({});
+  }, []);
+
   return (
-    <> 
-    <Navbar/>
-    <main className="pt-16">
+    <>
+      <Navbar />
+      <main className="pt-16">
         <section id="home" className="h-auto mb-2 flex justify-center items-center">
-        <Homes/>
+          <Homes />
         </section>
         <section id="about" className="h-screen mb-2 flex justify-center items-center">
-          <About/>
+          <About />
         </section>
         <section id="project" className="h-screen mb-2 flex justify-center items-center">
-        <Projects/>
+          <Projects />
         </section>
         <section id="certificates" className="h-auto flex justify-center items-center">
-        <Certificates/>
+          <Certificates />
         </section>
         <section id="journal" className="h-screen flex justify-center items-center">
-          <Journal/>
+          <Journal />
         </section>
         <section id="contact" className="h-screen flex justify-center items-center">
-    
-        <ContactMe/>
+          <ContactMe />
         </section>
-        </main>
-      <Footer/>
+      </main>
+      <Footer />
     </>
   );
 }

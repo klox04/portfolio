@@ -10,7 +10,9 @@ const ContactMe = () => {
 
   return (
       <div className="max-w-6xl w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="flex flex-col items-center gap-3 w-80 h-80">
+        <div className="flex flex-col items-center gap-3 w-80 h-80" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <Image
             src="/images/file-removebg.png"
             alt="Profile Image"
@@ -20,7 +22,9 @@ const ContactMe = () => {
           />
           <p className="text-3xl font-bold text-gray-400 text-center">Looking forward to work with everyone!</p>
         </div>
-        <div className="text-center md:text-left md:w-1/2">
+        <div className="text-center md:text-left md:w-1/2"data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-2 uppercase">Contact Me</h1>
           <h4 className="text-3xl md:text-4xl font-bold text-white mb-2 uppercase">Email:</h4>
           <p className="text-gray-400 text-lg">daniel.caralos@hcdc.edu.ph</p>

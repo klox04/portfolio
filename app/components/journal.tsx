@@ -48,7 +48,8 @@ const Journal = () => {
             <h3 className="text-4xl font-bold text-white mb-8">
                 - Journal
             </h3>
-            <div className="flex flex-row items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8"   data-aos="fade-up"
+        data-aos-duration="3000">
                 <div className="max-w-sm bg-white rounded-xl shadow-md overflow-hidden">
                     <div className="w-full h-64 relative">
                         <Image
