@@ -22,7 +22,7 @@ export default function Home() {
     <>
       <Navbar />
       <main className="pt-16">
-        <section id="home" className="h-auto mb-2 flex justify-center items-center">
+        <section id="home" className="h-screen mb-2 flex justify-center items-center">
           <Homes />
         </section>
         <section id="about" className="h-screen mb-2 flex justify-center items-center">

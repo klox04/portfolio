@@ -85,9 +85,9 @@ const Journal = () => {
                                         className="rounded-t-xl"
                                     />
                                 </div>
-                                <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">MY JOURNAL</div>
-                                <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">My Amazing Journey</a>
-                                <p className="mt-2 text-gray-500 ">
+                                <div className="uppercase text-sm text-indigo-500 font-semibold">MY JOURNAL</div>
+                                <a href="#" className="block mt-1 text-sm leading-tight font-medium text-black hover:underline">My Amazing Journey</a>
+                                <p className="mt-2 text-gray-500 text-sm indent-8">
                                     During the 1st week of February, I focused on setting up my work environment and getting acquainted with the office procedures and systems. This was a time of familiarization and adjustment as I settled into my role. 
                                     Moving into the second week, my main objective was to dive into learning Laravel, a popular PHP framework, and Vue.js for front-end development.
                                     I dedicated my time to studying and understanding the intricacies of Laravel, which is commonly used for web development project 
